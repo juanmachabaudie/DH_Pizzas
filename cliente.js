@@ -45,6 +45,6 @@ inquirer.prompt([
           message:"Qué Gusto de Empanadas quiere?",
           choices:["Carne Suave","Pollo","Jamon&Queso","Atun"]
       }
-  ]).then(function (respuestas) {
+  ]).then(function (respuestas) { 
     console.log(respuestas);
   })
